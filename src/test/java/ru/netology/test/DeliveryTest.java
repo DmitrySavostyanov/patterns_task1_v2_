@@ -14,7 +14,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class DeliveryTest {
     @BeforeEach
     void setup() {
-        open("http://localhost:7070");
+        open("http://localhost:7040");
         $("[data-test-id=date] input").doubleClick().sendKeys(Keys.DELETE);
     }
 
